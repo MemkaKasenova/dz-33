@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F8F6F1E29C1F2CC00E97332 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8F6F1D29C1F2CC00E97332 /* TableViewController.swift */; };
 		9FD9CC5329BE3FFF009D0C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9CC5229BE3FFF009D0C98 /* AppDelegate.swift */; };
 		9FD9CC5529BE3FFF009D0C98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9CC5429BE3FFF009D0C98 /* SceneDelegate.swift */; };
 		9FD9CC5729BE3FFF009D0C98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9CC5629BE3FFF009D0C98 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F8F6F1D29C1F2CC00E97332 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9FD9CC4F29BE3FFF009D0C98 /* dz 33.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dz 33.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD9CC5229BE3FFF009D0C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FD9CC5429BE3FFF009D0C98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				9FD9CC5229BE3FFF009D0C98 /* AppDelegate.swift */,
 				9FD9CC5429BE3FFF009D0C98 /* SceneDelegate.swift */,
 				9FD9CC5629BE3FFF009D0C98 /* ViewController.swift */,
+				9F8F6F1D29C1F2CC00E97332 /* TableViewController.swift */,
 				9FD9CC5829BE3FFF009D0C98 /* Main.storyboard */,
 				9FD9CC5B29BE4001009D0C98 /* Assets.xcassets */,
 				9FD9CC5D29BE4001009D0C98 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				9FD9CC5729BE3FFF009D0C98 /* ViewController.swift in Sources */,
 				9FD9CC5329BE3FFF009D0C98 /* AppDelegate.swift in Sources */,
 				9FD9CC5529BE3FFF009D0C98 /* SceneDelegate.swift in Sources */,
+				9F8F6F1E29C1F2CC00E97332 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
