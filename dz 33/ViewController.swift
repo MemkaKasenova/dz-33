@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         if enterNumberTF.text!.isEmpty  {
             colorTextField(enterNumberTF)
         } else {
-            let TableViewController = storyboard?.instantiateViewController(withIdentifier: "TableViewController") as! TableViewController
+            let TableViewController = storyboard?.instantiateViewController(withIdentifier: "tableViewVC") as! TableViewController
             navigationController?.pushViewController(TableViewController, animated: true)
             enterNumberTF.layer.borderWidth = 0
         }
