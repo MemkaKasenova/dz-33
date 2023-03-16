@@ -13,10 +13,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var signUpButton: UIButton!
     
-        override func viewDidLoad() {
-            super.viewDidLoad()
-    
-        }
+//        override func viewDidLoad() {
+//            super.viewDidLoad()
+//    
+//        }
     
     private func colorTextField(_ textField: UITextField) {
         textField.layer.borderWidth = 1
@@ -29,13 +29,15 @@ class ViewController: UIViewController {
         if enterNumberTF.text!.isEmpty  {
             colorTextField(enterNumberTF)
         } else {
-            // переход
             let TableViewController = storyboard?.instantiateViewController(withIdentifier: "TableViewController") as! TableViewController
             navigationController?.pushViewController(TableViewController, animated: true)
             enterNumberTF.layer.borderWidth = 0
         }
     }
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+    }
     }
     
 
