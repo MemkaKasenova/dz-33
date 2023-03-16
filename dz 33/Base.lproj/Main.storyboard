@@ -146,7 +146,7 @@
         <!--Table View Controller-->
         <scene sceneID="hoC-u4-tVN">
             <objects>
-                <viewController id="KL6-kk-YV0" customClass="TableViewController" customModule="dz_33" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="tableViewVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KL6-kk-YV0" customClass="TableViewController" customModule="dz_33" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SHv-kK-zrs" customClass="TableViewController.swift">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,7 +177,7 @@
         <!--Navigation Controller-->
         <scene sceneID="uSt-dB-w7e">
             <objects>
-                <navigationController storyboardIdentifier="tableViewVC" id="YjM-pX-mdK" sceneMemberID="viewController">
+                <navigationController id="YjM-pX-mdK" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="L80-rI-esa">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
